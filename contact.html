@@ -197,6 +197,7 @@
                         </div>
                         <div class="col-lg-7 reveal reveal-delay-1">
                             <form
+                                id="contactForm"
                                 class="contact-card"
                                 onsubmit="
                                     event.preventDefault();
@@ -210,6 +211,7 @@
                                         <label class="form-label" for="name"
                                             >Name</label
                                         ><input
+                                            name="name"
                                             class="form-control"
                                             id="name"
                                             required
@@ -220,6 +222,7 @@
                                         <label class="form-label" for="email"
                                             >Email</label
                                         ><input
+                                            name="email"
                                             class="form-control"
                                             id="email"
                                             type="email"
@@ -231,6 +234,7 @@
                                         <label class="form-label" for="phone"
                                             >Phone</label
                                         ><input
+                                            name="phone"
                                             class="form-control"
                                             id="phone"
                                             placeholder="Your phone number"
@@ -240,6 +244,7 @@
                                         <label class="form-label" for="service"
                                             >What do you need?</label
                                         ><select
+                                            name="service"
                                             class="form-select"
                                             id="service"
                                         >
@@ -259,6 +264,7 @@
                                         <label class="form-label" for="message"
                                             >Tell us about the project</label
                                         ><textarea
+                                            name="message"
                                             class="form-control"
                                             id="message"
                                             rows="6"
@@ -337,5 +343,6 @@
         </button>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="script.js"></script>
+        <script src="contact.js"></script>
     </body>
 </html>
