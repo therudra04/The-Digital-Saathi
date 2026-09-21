@@ -1187,7 +1187,7 @@ html[data-theme="dark"] .navbar-toggler-icon {
 
 .blog-cover {
     height: 210px;
-    padding: 22px;
+    /* padding: 22px; */
     display: flex;
     align-items: flex-end;
     position: relative;
@@ -1614,3 +1614,14 @@ html[data-theme="dark"] .navbar-toggler-icon {
     }
 }
 
+.blog-cover {
+    overflow: hidden;
+}
+
+.blog-cover .blog-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
